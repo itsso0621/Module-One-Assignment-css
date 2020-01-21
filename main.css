@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+/* 
+includes at least one example of a type selector, a class selector, an id
+selector, an attribute selector, a pseudo-class selector or pseudo-element
+selector, a descendant combinator, a child combinator, a direct sibling
+combinator and a general sibling combinator.  */
+
+/* 
+includes at least one example of an a general sibling combinator.  */
+
+
+body { 
+	font-family: Georgia, Times, "Times New Roman", serif;
+    line-height: 1.7;
+    background-color: rgb(237, 242, 248);
+	color: #555753; 
+	margin: 0; 
+    padding: 0;
+    }
+
+h3 { 
+    font: italic normal 1.5em georgia, sans-serif;
+    letter-spacing: 1px; 
+    margin-bottom: 10px; 
+    color: rgb(59, 28, 28);
+
+}
+
+
+section {
+    margin: 5% 0 0 0;
+}
+
+
+p a {
+    color: #B3AE94;;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(59, 28, 28);
+}
+
+.page-wrapper { 
+    padding: 0 200px 0 250px;  
+    margin: 0; 
+    position: relative;
+    }
+
+.intro { 
+    min-width: 470px;
+    width: 100%;
+    }
+
+.sidebar {
+    margin-right: 600px; 
+    position: absolute; 
+    top: 6%; 
+    left: 60px;
+    }
+
+.sidebar .wrapper { 
+    font: 14px verdana, sans-serif; 
+    padding: 10px; 
+    margin-top: 150px; 
+    width: 180px; 
+    }
+
+.sidebar h3.select { 
+    margin: 0 0 10% 0;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: 900;
+    }
+.sidebar h3.archives { 
+    margin: 20% 0 10% 0;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: 900;
+    }
+.sidebar h3.resources { 
+    margin: 20% 0 10% 0;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: 900;
+    }
+
+
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    }
+    
+.sidebar li {
+    line-height: 1.3em;  
+    display: block; 
+    padding-top: 5px; 
+    margin-bottom: 5px;
+    list-style-type: none;
+    }
+
+
+.sidebar li a {
+    color: #B3AE94;
+    text-decoration: none;
+}
+
+.sidebar li a:visited {
+    color: gray;
+}
+
+.sidebar li a:hover {
+    color: rgb(59, 28, 28);
+    }
+
+
+[role="banner"] h1 { 
+    padding: 1em 0 0; 
+    text-transform: uppercase; 
+    letter-spacing: 0.1em; 
+    font-size: 3.5rem; 
+    font-weight: 900; 
+    color:rgb(59, 28, 28); 
+    text-align: right;
+}
+
+[role="banner"] h2 { 
+    text-transform: uppercase; 
+    font-weight: 400; 
+    color: rgba(35, 33, 51, 0.5); 
+    margin-top: -100px;
+    margin-bottom: 110px;
+    text-align: right;
+    font-size: 1em;
+}
+
+#zen-summary {
+    text-align: right;
+    color: rgb(150, 148, 148);
+    font-style: italic;
+}
+
+footer { 
+    font-size: 1.0rem; 
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    /* background-color: white; */
+}
+
+footer > a:link, footer > a:visited { 
+    margin-right: 30px; 
+    color: rgb(59, 28, 28); 
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer > a:hover {
+    color: darkred;
+    /* background-color: lightgray; */
+    padding: 0 10px;
+}
+
+p > abbr {
+    font-style: italic;
+}
+
+#zen-preamble, 
+#zen-explanation, 
+#zen-participation, 
+#zen-benefits, 
+#zen-requirements {
+    background-color: rgb(200, 201, 190, 0.2);
+    padding: 20px;
+}
+
+.zen-resources ul li:first-child {
+    font-weight: 900;
+}
+
+.next + li {
+    font-weight: 900;
+}
+
+#zen-supporting ~ aside section {
+    color: lightgrey;
+}
